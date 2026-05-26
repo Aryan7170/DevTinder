@@ -11,7 +11,7 @@ require("./utils/cronjob");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://3.25.215.32",
     credentials: true,
   }),
 );
